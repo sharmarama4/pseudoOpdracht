@@ -57,18 +57,19 @@ public class EmailApp {
          /*  emails.clear();
            System.out.println(emails);*/
 
-           // sort the emails desired order
+           // sort the emails
            Collections.sort(emails,new EmailSort());
+           //print the emails in the sorted list
            emails.forEach(e-> System.out.println(e));
            //display total amount of emails sent
            System.out.println("We have sorted "+emails.size()+" mails :");
-        //display total amount of emails sent to recruitment
+            //display total amount of emails sent to recruitment
             System.out.println(cvList.size()+" to recruitment");
-        //display total amount of emails sent to spam
+            //display total amount of emails sent to spam
             System.out.println(spamList.size()+" to spam");
-        //display total amount of emails sent to sales or advertisement
+            //display total amount of emails sent to sales or advertisement
             System.out.println(proposalList.size()+" to sales");
-        //display total amount of emails sent to reception
+             //display total amount of emails sent to reception
             System.out.println(recepList.size()+" to reception");
 
 
