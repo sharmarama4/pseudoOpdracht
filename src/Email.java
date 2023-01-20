@@ -1,4 +1,4 @@
-public class Email{
+public class Email {
     private String to;
     private String from;
     private String cc;
@@ -69,5 +69,4 @@ public class Email{
 
 
 }
-
 
